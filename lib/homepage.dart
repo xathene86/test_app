@@ -25,7 +25,7 @@ class _ButtonBeingPressed extends State<Buttonz>{
           padding: new EdgeInsets.all(75.0),
          child: new Center(
         child: new RaisedButton(
-          onPressed: new _ButtonPressed(),
+          onPressed:_ButtonPressed(),
           child: new Row(
             children: <Widget>[
               new Text("Press meh")
